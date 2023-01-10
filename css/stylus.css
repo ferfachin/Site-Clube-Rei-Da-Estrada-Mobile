@@ -55,15 +55,17 @@ html {
 }
 
 .home-beneficios {
+    align-items: center;
     margin: 0 auto;
 }
 
 .home-text2 {
     color: #FFFFFF;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: left;
-    line-height: 3em;
+    margin-top: 1em;
 }
 
 .home-text2 p {
