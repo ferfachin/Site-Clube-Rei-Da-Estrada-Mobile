@@ -73,9 +73,9 @@ html {
 .home-text3 {
     position: relative;
     position: absolute;
-    top: 88%;
+    top: 90%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -20%);
     text-align: center;
     color: #FFFFFF;
     font-weight: 700;
