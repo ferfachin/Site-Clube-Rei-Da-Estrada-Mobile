@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5em 3em 0 ;
+    padding: 0.5em 3em;
 }
 
 .menu-logo {
@@ -99,5 +99,14 @@ body {
     font-weight: 700;
     font-size: 27px;
     margin-top: 1.8rem;
+    cursor: pointer;
 
 }
+
+.home-button1:hover {
+    transition: 0.5s;
+    color: #FFFFFF;
+    background: #005FA3;
+}
+
+/*-----------------------Finish Home-----------------------*/
