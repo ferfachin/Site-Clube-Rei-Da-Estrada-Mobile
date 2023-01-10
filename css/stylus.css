@@ -27,6 +27,11 @@ html {
     font-weight: bold;
 }
 
+.home {
+    width: 100vw;
+    height: 100vh;
+}
+
 .home-bg {
     width: 100vw;
     height: 100vh;
@@ -104,7 +109,7 @@ html {
     font-size: 27px;
     position: relative;
     position: absolute;
-    top: 98%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -5%);
 }
