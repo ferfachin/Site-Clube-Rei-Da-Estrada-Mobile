@@ -43,6 +43,7 @@ html {
 .home-text1 {
     width: 100vw;
     padding-top: 8em;
+    margin-bottom: 3em;
 }
 
 .home-text1 h1 {
@@ -54,7 +55,7 @@ html {
 }
 
 .home-beneficios {
-
+    margin: 0 auto;
 }
 
 .home-text2 {
@@ -62,7 +63,7 @@ html {
     display: flex;
     align-items: center;
     text-align: left;
-    margin-bottom: 1em;
+
 }
 
 .home-text2 p {
@@ -72,7 +73,7 @@ html {
 }
 
 .home-text3 {
-
+    margin-top: 3em;
     text-align: center;
     color: #FFFFFF;
     font-weight: 700;
@@ -93,5 +94,6 @@ html {
     color: #003153;
     font-weight: 700;
     font-size: 27px;
+    margin-top: 3em;
 
 }
