@@ -81,3 +81,24 @@ html {
     font-weight: 700;
     font-size: 24px;
 }
+
+.home-button {
+    align-items: center;
+    text-align: center;
+}
+
+.home-button1 {
+    width: 300px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    color: #003153;
+    font-weight: 700;
+    font-size: 27px;
+    position: relative;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
