@@ -63,7 +63,7 @@ html {
     display: flex;
     align-items: center;
     text-align: left;
-
+    line-height: 3em;
 }
 
 .home-text2 p {
