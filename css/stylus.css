@@ -1,0 +1,45 @@
+*,
+html {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+/*-----------------------Start Menu-----------------------*/
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+/*-----------------------Finish Menu-----------------------*/
+
+/*-----------------------Start Home-----------------------*/
+.text-bold {
+    font-weight: bold;
+}
+
+.home-bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-text1 {
+    width: 100vw;
+    padding-top: 8em;
+}
+
+.home-text1 h1 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+}
