@@ -69,3 +69,15 @@ html {
     font-size: 18px;
     margin-left: 1em;
 }
+
+.home-text3 {
+    position: relative;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+}
