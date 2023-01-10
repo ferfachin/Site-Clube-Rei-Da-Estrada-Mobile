@@ -49,6 +49,8 @@ html {
 }
 
 .home-beneficios {
+    width: 50%;
+    height: 50%;
     position: relative;
     position: absolute;
     top: 70%;
@@ -71,6 +73,8 @@ html {
 }
 
 .home-text3 {
+    width: 50%;
+    height: 50%;
     position: relative;
     position: absolute;
     top: 90%;
@@ -88,6 +92,8 @@ html {
 }
 
 .home-button1 {
+    width: 50%;
+    height: 50%;
     width: 300px;
     height: 80px;
     background: #FFFFFF;
