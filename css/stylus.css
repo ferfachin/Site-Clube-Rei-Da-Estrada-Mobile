@@ -171,6 +171,11 @@ body {
         display: none;
     }
 
+    .home-bg--desktop {
+        width: 100vw;
+        height: 100vh;
+    }
+
     .home-text1--desktop {
         color: #ffffff;
         margin-left: 2em;
