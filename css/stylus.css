@@ -57,6 +57,12 @@ body {
         font-size: 12px;
     }
 
+    .menu-desktop--list li:hover {
+        transition: 0.5s;
+        font-weight: 700;
+        color: #005FA3;
+    }
+
     .menu-desktop--button {
         width: 215px;
         height: 72px;
