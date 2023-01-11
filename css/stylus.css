@@ -5,6 +5,8 @@ html {
     padding: 0;
     box-sizing: border-box;
     border: none;
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -33,6 +35,7 @@ body {
     }
 
     .menu-desktop {
+        width: 100%;
         display: flex;
         justify-content: space-between;
         padding: 0.5em 2em;
@@ -64,6 +67,7 @@ body {
         font-weight: 700;
         font-size: 18px;
     }
+
 }
 
 @media screen and (max-width:960px) {
@@ -81,20 +85,24 @@ body {
     font-weight: bold;
 }
 
-
-.home-bg {
+.home {
     width: 100vw;
     height: 90vh;
     background-image: url(../img/home.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.home-bg--mobile {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
+    padding-top: 3em;
+
 }
 
-.home-text1 h1 {
+.home-text1--mobile h1 {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 28px;
@@ -102,24 +110,24 @@ body {
     text-align: center;
 }
 
-.home-beneficios {
+.home-beneficios--mobile {
     margin-bottom: 1em;
 }
 
-.home-text2 {
+.home-text2--mobile {
     color: #FFFFFF;
     display: flex;
     align-items: center;
     margin-top: 2em;
 }
 
-.home-text2 p {
+.home-text2--mobile p {
     font-weight: 400;
     font-size: 18px;
     margin-left: 1em;
 }
 
-.home-text3 {
+.home-text3--mobile {
     margin-top: 1em;
     text-align: center;
     color: #FFFFFF;
@@ -127,12 +135,12 @@ body {
     font-size: 24px;
 }
 
-.home-button {
+.home-button--mobile {
     align-items: center;
     text-align: center;
 }
 
-.home-button1 {
+.home-button1--mobile {
     width: 300px;
     height: 80px;
     background: #FFFFFF;
@@ -143,6 +151,63 @@ body {
     font-size: 27px;
     margin-top: 1.8rem;
     cursor: pointer;
+
+}
+
+@media screen and (max-width:960px) {
+    .home-bg--desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width:960px) {
+    .home-bg--mobile {
+        display: none;
+    }
+
+    .home-text1--desktop {
+        color: #ffffff;
+        margin-left: 2em;
+        font-weight: 400;
+        font-size: 40.5px;
+        line-height: 49px;
+        padding-top: 10rem;
+    }
+
+    .home-beneficios--desktop {
+        display: flex;
+        padding: 2.1em;
+    }
+
+    .home-text2--desktop {
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        margin-left: 3em;
+    }
+
+    .home-text3--desktop {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 27px;
+        padding: 0.5em 0 0 3.5em;
+    }
+
+    .home-button--desktop {
+        padding: 2.5em 0 0 5em;
+    }
+
+    .home-button1--desktop {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 27px;
+        width: 300px;
+        height: 80px;
+        background: #003153;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+
+    }
 
 }
 
