@@ -13,7 +13,7 @@ body {
 
 /*-----------------------Start Menu-----------------------*/
 
-.menu {
+.menu-mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,7 +21,57 @@ body {
 }
 
 .menu-logo {
-    width: 4em;
+    width: 5em;
+}
+
+@media screen and (min-width:960px) {
+
+    .menu-logo,
+    .menu-mobile,
+    .menu-mobile--icon {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5em 2em;
+        align-items: center;
+    }
+
+    .menu-desktop--list {}
+
+    .menu-desktop--list ul {
+        display: flex;
+        padding-left: 10em;
+    }
+
+    .menu-desktop--list li {
+        margin-left: 2em;
+        color: #003153;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .menu-desktop--button {
+        width: 215px;
+        height: 72px;
+        background: #003153;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:960px) {
+
+    .menu-logo--desktop,
+    .menu-desktop {
+        display: none;
+    }
 }
 
 /*-----------------------Finish Menu-----------------------*/
@@ -96,7 +146,7 @@ body {
 
 }
 
-.home-button1:hover {
+button:hover {
     transition: 0.5s;
     color: #FFFFFF;
     background: #005FA3;
