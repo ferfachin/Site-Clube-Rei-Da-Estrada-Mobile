@@ -32,19 +32,16 @@ body {
 }
 
 
-
 .home-bg {
     width: 100vw;
     height: 90vh;
     background-image: url(../img/home.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.home-text1 {
-    width: 100vw;
-    padding-top: 4em;
-    margin-bottom: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
 
 .home-text1 h1 {
@@ -56,21 +53,17 @@ body {
 }
 
 .home-beneficios {
-    align-items: center;
-    margin: 0 auto;
+    margin-bottom: 1em;
 }
 
 .home-text2 {
     color: #FFFFFF;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-top: 2em;
 }
 
 .home-text2 p {
-    display: flex;
-    font-display: left;
     font-weight: 400;
     font-size: 18px;
     margin-left: 1em;
