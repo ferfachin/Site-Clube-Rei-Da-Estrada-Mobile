@@ -11,6 +11,8 @@ html {
 
 body {
     width: 100%;
+    overflow-x: hidden;
+
 }
 
 /*-----------------------Start Menu-----------------------*/
@@ -55,6 +57,7 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
+        cursor: pointer;
     }
 
     .menu-desktop--list li:hover {
@@ -72,6 +75,7 @@ body {
         color: #FFFFFF;
         font-weight: 700;
         font-size: 18px;
+        cursor: pointer;
     }
 
 }
@@ -217,6 +221,7 @@ body {
         background: #003153;
         box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
         border-radius: 20px;
+        cursor: pointer;
 
     }
 
@@ -253,6 +258,7 @@ button:hover {
         display: grid;
         grid-template-columns: repeat(4, 0.5fr);
     }
+
 
 }
 
