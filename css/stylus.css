@@ -281,3 +281,46 @@ button:hover {
     text-align: center;
     color: #003153;
 }
+
+/*-----------------------Finish Diferenciais-----------------------*/
+
+/*-----------------------Start Servicos-----------------------*/
+
+.servicos {
+    padding-top: 6em;
+}
+
+.servicos-h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #003153;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.servicos-box1 {
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.servicos-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 1em;
+}
+
+.servicos-text {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.servicos-line {
+    align-items: center;
+    text-align: center;
+    
+}
