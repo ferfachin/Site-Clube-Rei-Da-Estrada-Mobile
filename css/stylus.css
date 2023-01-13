@@ -44,8 +44,6 @@ body {
         align-items: center;
     }
 
-    .menu-desktop--list {}
-
     .menu-desktop--list ul {
         display: flex;
         padding-left: 10em;
@@ -78,6 +76,12 @@ body {
         cursor: pointer;
     }
 
+}
+
+@media screen and (min-width:1440px) {
+    .home-bg--desktop {
+        padding-top: 10em;
+    }
 }
 
 @media screen and (max-width:960px) {
@@ -303,18 +307,39 @@ button:hover {
         justify-content: space-between;
     }
 
+    .servicos-boxes2--align h1{
+        font-size: 27px;
+    }
+
     .servicos-box2--geral {
         display: flex;
+        margin-right: 2em;
+        font-size: 18px;
     }
 
-    .servicos-box1-desespero{
+    .servicos-box1-desespero {
         margin-left: 1em;
         margin-right: 2em;
+
     }
 
-    .servicos-box2-desespero{
+    .servicos-box2-desespero {
         margin-top: 6em;
-        
+
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .servicos-box1--geral img {
+        width: 50vw;
+    }
+
+    .servicos-boxes2--align h1 {
+        font-size: 40.5px;
+    }
+    
+    .servicos-box2--geral {
+        font-size: 27px;
     }
 }
 
