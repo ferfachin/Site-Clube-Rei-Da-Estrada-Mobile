@@ -205,6 +205,10 @@ body {
         margin-left: 3em;
     }
 
+    .home-text2--desktop p{
+        margin-left: 1em;
+    }
+
     .home-text3--desktop {
         color: #FFFFFF;
         font-weight: 700;
