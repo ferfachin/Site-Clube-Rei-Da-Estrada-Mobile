@@ -307,7 +307,7 @@ button:hover {
         justify-content: space-between;
     }
 
-    .servicos-boxes2--align h1{
+    .servicos-boxes2--align h1 {
         font-size: 27px;
     }
 
@@ -337,7 +337,7 @@ button:hover {
     .servicos-boxes2--align h1 {
         font-size: 40.5px;
     }
-    
+
     .servicos-box2--geral {
         font-size: 27px;
     }
@@ -391,7 +391,87 @@ button:hover {
 /*-----------------------Finish Servicos-----------------------*/
 
 /*-----------------------Start Sobre nos-----------------------*/
+.sobre-nos {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    padding: 8em;
+}
 
+.sobre-nos--box1 {
+    width: 50%;
+    color: #003153;
+    font-weight: 400;
+    font-size: 18px;
+}
 
+.sobre-nos--box1 h1 {
+    font-weight: 700;
+    font-size: 40.5px;
+}
+
+.sobre-nos--box1 h2 {
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.sobre-nos--box1 h1,
+h2 {
+    line-height: 1.5em;
+}
+
+.sobre-nos--text1,
+.sobre-nos--text2 {
+    color: #003153;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding-top: 1.5em;
+}
+
+@media screen and (min-width:320px) and (max-width:1024px) {
+    .sobre-nos--box1 {
+        display: none;
+    }
+
+    .sobre-nos {
+        display: grid;
+        text-align: center;
+    }
+
+    .sobre-nos--box2 {
+        width: 100%;
+        color: #003153;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .sobre-nos--box2 h1 {
+        font-weight: 700;
+        font-size: 40.5px;
+    }
+
+    .sobre-nos--box2 h2 {
+        font-weight: 600;
+        font-size: 27px;
+    }
+
+    .sobre-nos--box2 h1,
+    h2 {
+        line-height: 1.5em;
+    }
+
+    .sobre-nos--text3,
+.sobre-nos--text4 {
+    color: #003153;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding-top: 1.5em;
+}
+}
 
 /*-----------------------Finish Sobre nos-----------------------*/
