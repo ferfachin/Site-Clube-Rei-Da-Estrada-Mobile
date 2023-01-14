@@ -445,7 +445,7 @@ h2 {
     }
 
     .sobre-nos--map img {
-        width: 80%;
+        width: 90vw;
     }
 
     .sobre-nos--box2 {
@@ -463,6 +463,7 @@ h2 {
     .sobre-nos--box2 h2 {
         font-weight: 600;
         font-size: 18px;
+        padding-top: 1.5em;
     }
 
     .sobre-nos--box2 h1,
