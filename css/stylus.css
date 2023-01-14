@@ -441,6 +441,12 @@ h2 {
         width: 100%;
         display: grid;
         text-align: center;
+        padding: 5em;
+    }
+
+    .sobre-nos--map img {
+        width: 80%;
+        height: 50%;
     }
 
     .sobre-nos--box2 {
@@ -452,12 +458,12 @@ h2 {
 
     .sobre-nos--box2 h1 {
         font-weight: 700;
-        font-size: 40.5px;
+        font-size: 27px;
     }
 
     .sobre-nos--box2 h2 {
         font-weight: 600;
-        font-size: 27px;
+        font-size: 18px;
     }
 
     .sobre-nos--box2 h1,
