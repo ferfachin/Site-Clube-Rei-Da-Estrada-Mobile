@@ -438,6 +438,7 @@ h2 {
     }
 
     .sobre-nos {
+        width: 100%;
         display: grid;
         text-align: center;
     }
@@ -465,13 +466,20 @@ h2 {
     }
 
     .sobre-nos--text3,
-.sobre-nos--text4 {
-    color: #003153;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.5em;
-    padding-top: 1.5em;
+    .sobre-nos--text4 {
+        color: #003153;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5em;
+        padding-top: 1.5em;
+    }
 }
+
+@media screen and (min-width:1024px) {
+    .sobre-nos--box2 {
+        display: none;
+    }
+
 }
 
 /*-----------------------Finish Sobre nos-----------------------*/
