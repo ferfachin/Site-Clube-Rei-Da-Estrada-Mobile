@@ -205,7 +205,7 @@ body {
         margin-left: 3em;
     }
 
-    .home-text2--desktop p{
+    .home-text2--desktop p {
         margin-left: 1em;
     }
 
@@ -397,7 +397,6 @@ button:hover {
 /*-----------------------Start Sobre nos-----------------------*/
 .sobre-nos {
     width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -493,3 +492,185 @@ h2 {
 }
 
 /*-----------------------Finish Sobre nos-----------------------*/
+
+/*-----------------------Start Assistencia-----------------------*/
+
+.assistencia {
+    border: 0.5em #003153 solid;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 1.5em;
+    padding: 2em;
+    margin: 0 2em 0 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.assistencia-text--h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #003153;
+}
+
+.assistencia-text--p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #003153;
+    padding-top: 1.5em;
+}
+
+.assistencia-button {
+    padding-top: 2.5em;
+}
+
+.assistencia-button1 {
+    color: #FFFFFF;
+    background: #003153;
+    width: 220px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width:1024px) {
+    .assistencia {
+        display: grid;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .assistencia {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 6em 0 6em;
+        padding: 3em;
+    }
+
+    .assistencia-text {
+        text-align: left;
+    }
+
+    .assistencia-text--h1 {
+        font-weight: 700;
+        font-size: 60.75px;
+        line-height: 74px;
+        color: #003153;
+    }
+
+    .assistencia-text--p {
+        font-weight: 700;
+        font-size: 40.5px;
+        line-height: 49px;
+        color: #003153;
+    }
+
+    .assistencia-button1 {
+        width: 250px;
+        height: 90px;
+        font-size: 21px;
+    }
+}
+
+/*-----------------------Finish Assistencia-----------------------*/
+
+/*-----------------------Start trabalhar-----------------------*/
+
+.trabalhar {
+    padding-top: 5em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.trabalhar-text h1 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 29px;
+    text-align: center;
+    color: #003153;
+}
+
+.trabalhar-text h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #003153;
+    margin-top: 1.5em;
+}
+
+.trabalhar-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #003153;
+    margin-top: 1.5em;
+}
+
+.trabalhar-button {
+    margin-top: 2em;
+}
+
+.trabalhar-button1 {
+    color: #FFFFFF;
+    background: #003153;
+    width: 160px;
+    height: 75px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width:1024px) {
+    .trabalhar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0em 10em 0 10em;
+    }
+
+    .trabalhar-img{
+        display: none;
+    }
+
+    .trabalhar-text h1 {
+        font-weight: 700;
+        font-size: 40.5px;
+        line-height: 29px;
+        text-align: left;
+        color: #003153;
+    }
+    
+    .trabalhar-text h2 {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 15px;
+        text-align: left;
+        color: #003153;
+    }
+    
+    .trabalhar-text p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        color: #003153;
+    }
+
+    .trabalhar-button{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:1024px) {
+    .trabalhar-img--desktop{
+        display: none;
+    }
+}
