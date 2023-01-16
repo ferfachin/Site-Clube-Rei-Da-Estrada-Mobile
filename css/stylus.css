@@ -573,6 +573,7 @@ h2 {
         width: 250px;
         height: 90px;
         font-size: 21px;
+        cursor: pointer;
     }
 }
 
@@ -626,6 +627,7 @@ h2 {
     font-weight: 700;
     font-size: 18px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 @media screen and (min-width:1024px) {
